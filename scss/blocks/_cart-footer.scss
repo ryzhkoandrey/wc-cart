@@ -1,1 +1,17 @@
-.cart-footer {}
+.cart-footer {
+    padding: 19px 0;
+
+    display: grid;
+    grid-template-columns: 5fr 3fr 4fr;
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.2;
+    background: #eaeff2;
+
+    &__count {
+        grid-column-start: 2;
+    }
+
+    &__price {}
+}
