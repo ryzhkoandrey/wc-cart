@@ -1,1 +1,23 @@
-.cart-header {}
+.cart-header {
+    padding: 22px 0;
+
+    display: grid;
+    grid-template-columns: 2fr repeat(3, 3fr) 1fr;
+    gap: 30px;
+
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 1.2;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #000;
+    background: #eaeff2;
+
+    &__title {
+        grid-column-start: 2;
+    }
+
+    &__count {}
+
+    &__cost {}
+}
