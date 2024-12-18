@@ -1,7 +1,8 @@
 .product {
+    border-bottom: 1px solid rgba(126, 155, 189, 0.3);
+    padding: 20px 0;
     display: grid;
     grid-template-columns: 2fr repeat(3, 3fr) 1fr;
-
     font-weight: 600;
     font-size: 18px;
     line-height: 1.3;
