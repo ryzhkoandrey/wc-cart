@@ -3,14 +3,24 @@
 
     display: grid;
     grid-template-columns: 5fr 3fr 4fr;
+    gap: 30px;
 
     font-weight: 700;
     font-size: 18px;
     line-height: 1.2;
     background: #eaeff2;
 
+    @media (max-width: $mobile) {
+        padding: 19px 15px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     &__count {
         grid-column-start: 2;
+
+        @media (max-width: $mobile) {
+            grid-column-start: 1;
+        }
     }
 
     &__price {}
