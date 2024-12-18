@@ -1,1 +1,24 @@
-.product {}
+.product {
+    display: grid;
+    grid-template-columns: 2fr repeat(3, 3fr) 1fr;
+
+    &__img {}
+
+    &__title {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 1.3;
+        color: #000;
+    }
+
+    &__count {}
+
+    &__price {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 1.3;
+        color: #000;
+    }
+
+    &__controls {}
+}
