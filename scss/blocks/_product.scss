@@ -2,23 +2,32 @@
     display: grid;
     grid-template-columns: 2fr repeat(3, 3fr) 1fr;
 
-    &__img {}
+    &__img {
+        align-self: center;
+        justify-self: center;
+    }
 
     &__title {
+        align-self: center;
         font-weight: 600;
         font-size: 18px;
         line-height: 1.3;
         color: #000;
     }
 
-    &__count {}
+    &__count {
+        align-self: center;
+    }
 
     &__price {
+        align-self: center;
         font-weight: 600;
         font-size: 18px;
         line-height: 1.3;
         color: #000;
     }
 
-    &__controls {}
+    &__controls {
+        align-self: center;
+    }
 }
