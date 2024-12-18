@@ -1,4 +1,7 @@
 .count {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 
     &__box {
         border-radius: 3px;
@@ -8,8 +11,8 @@
     }
 
     &__input {
-        max-width: 100%;
         padding-top: 4px;
+        max-width: 100%;
         font-weight: 600;
         font-size: 18px;
         line-height: 1.3;
@@ -24,7 +27,17 @@
         }
     }
 
-    &__controls {}
+    &__controls {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 9px;
+
+        img {
+            display: block;
+        }
+    }
 
     &__up {}
 
